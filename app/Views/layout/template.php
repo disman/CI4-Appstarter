@@ -15,6 +15,10 @@
         <link href="<?= base_url() ?>/assets/css/icons.css" rel="stylesheet" type="text/css">
         <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet" type="text/css">
 
+        <!-- DataTables -->
+        <link href="<?= base_url() ?>/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?= base_url() ?>/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
     </head>
 
 
@@ -63,6 +67,17 @@
 
         <!-- App js -->
         <script src="<?= base_url() ?>/assets/js/app.js"></script>
+
+        <!-- Required datatable js -->
+        <script src="<?= base_url() ?>/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="<?= base_url() ?>/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+        <!-- Datatable init js -->
+        <script src="<?= base_url() ?>/assets/pages/datatables.init.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#dataMahasiswa').DataTable();  
+            } );
+        </script>
 
         <!-- Dashboard js -->
         <script src="<?= base_url() ?>/assets/plugins/skycons/skycons.min.js"></script>
