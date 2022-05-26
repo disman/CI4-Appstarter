@@ -9,7 +9,7 @@
                </li>
 
                <li class="has-submenu">
-                  <a href="<?= base_url('mahasiswa/index') ?>"><i class="mdi mdi-bullseye"></i>Data Mahasiswa</a>
+                  <a href="<?= base_url('mahasiswa/index') ?>"><i class="mdi mdi-account"></i>Data Mahasiswa</a>
                </li>
 
          </ul>
